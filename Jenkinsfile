@@ -13,12 +13,5 @@ pipeline{
         }
       }
     }
-
-    stage('Deploy'){
-      steps{
-        echo "Code Deployed."
-      }
-    }
   }
-
 }
